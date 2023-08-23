@@ -1,0 +1,183 @@
+
+<style>
+
+
+
+body {
+  color: #ffffff !important;
+    background-image: url('https://raw.githubusercontent.com/JeanCarloo/Luxuria-Design/main/Fundo.png');
+    background-size: cover;
+}
+}
+
+.dropdown-menu {
+  background-color: #ffffff !important;
+}
+
+.app .app-header .dropdown-menu a {
+  color: white !important;
+}
+
+#dvLang,
+#imgGplay,
+#libilhete,
+.lw-rodape,
+.app-footer {
+  display: none !important;
+}
+
+.lw-header .brand {
+    height: 40px !important;
+}
+
+html {
+  background-color: #171717 !important;
+}
+
+.border {
+  border: none !important;
+}
+
+label {
+  color: white !important;
+}
+
+.page-aposta .campeonatos ul li {
+  border: none !important;
+  transition: 200ms;
+}
+
+.page-aposta .campeonatos ul li:hover {
+  background: #00000075 !important;
+}
+
+.card {
+  border: none !important;
+  box-shadow: 2px 2px 8px 0px #141414 !important;
+  border-radius: 1.25rem !important;
+}
+
+.menu-mobile ul li a {
+    color: #ededed !important;
+        border: none !important;
+}
+
+.menu-mobile div:has(a){
+    display: none !important;
+}
+
+@media (min-width: 767px) {
+    header .app-container a:has(img) img {
+        height: 100px !important;
+    }
+}
+
+html, .page-aposta {
+ background: black !important;
+}
+
+.container-fluid {
+padding: 0 !important;
+}
+
+.row.mt-3:has(#text-busca) {
+    display: none !important;
+}
+
+.opcoes-responsivo, .row .row:has(#text-busca) {
+    display: none !important;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #cec008;
+    border-color: #cec008;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+.btn-primary:hover {
+    color: #000;
+    background-color: #e9d878;
+    border-color: #e9d878;
+    border-radius: 25px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #252525;
+    border-color: #252525;
+    border-radius: 25px;
+}
+
+#pg-aposta .col-campeonatos .menu-comapeonatos a {
+    border-radius: 70px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: #202020;
+    margin-bottom: 10px;
+}
+
+/*Categorias laterais*/
+
+#pg-aposta .col-campeonatos .menu-comapeonatos {
+    background-color: rgb(255 151 0)!important;
+    border-radius: 18px;
+}
+
+#pg-aposta .col-campeonatos .menu-comapeonatos .title {
+    background-image: linear-gradient(to bottom, #ffd800, #ff9600)!important;
+}
+
+#pg-aposta .col-campeonatos .menu-comapeonatos .title {
+    background-color: #FC8D0D;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 35px;
+    margin: 0;
+    border-radius: 50px;
+    color: #202020;
+    font-weight: 900;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: calc(1.25rem - 1px);
+}
+
+.main-background {
+    background-color: #FA6900!important;
+}
+
+/*Fundo*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    background: linear-gradient(#7f00c1, #A200F5);
+}
+
+
+
+</style>
